@@ -1,0 +1,195 @@
+/*frontend calisma dosyasi*/
+/*Header start*/
+*{
+    margin: 0%;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.first{
+    background-color:rgb(243, 243, 243);
+    height: 30px;
+}
+.container1{
+margin-left: 20%;
+}
+#karmacon{
+    margin-left: 30px;
+}
+.form3{
+    width: 500px;
+}
+#blog{
+    background-color: red;
+    color: white;
+    margin-right: 25px;
+}
+#yardim{
+    color: black;
+}
+#p1{
+    color: red;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-bottom: 0%;
+}
+#p2{
+    color: red;
+    font-size: xx-small;
+    margin-left: 65px;
+    margin-top: 0%;
+}
+#button1{
+    background-color: red;
+    color: white;
+}
+#form1{
+    margin-left: 200px;
+}
+#sign{
+    margin-right:0%;
+    margin-left: 300px;
+    width: 200px;
+    background-color: white;
+    border-style: none;
+}
+#p3{
+    font-size: large;
+    font-weight:bold;
+    color: black;
+}
+#p4{
+    font-size: x-small;
+    color: black;
+    margin-top: 0%;
+}
+#li1{
+    color: black;
+}
+.thirdpart{
+    color: white;
+    background-color:red;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.user{
+    color: black;
+}
+/*Header end*/
+/*body start*/
+#siralama{
+    margin-left: 50px;
+}
+#birincisiralama{
+    margin-right: 25px;
+    height: 50px;
+    float: left;
+}
+#ikincisiralama{
+    float: left;
+}
+.uzunluk{
+    height: 50px;
+    width: 250px;
+}
+#list{
+    float: right;
+    margin-right: 600px;
+    margin-top: 0%;
+    padding-top: 0%;
+    margin-left: 0%;
+}
+/*cards start*/
+#cards{
+    margin-top: 50px;
+    
+}
+.card-link{
+    margin-right: 20px;
+    color: white;
+}
+#cardbutton{
+    width: 250px;
+    height: 40px;
+    background-color: red;
+    border: none;
+    
+}
+
+/*cards end*/
+#sayfalar{
+    background-color: red;
+}
+/*Footer start*/
+#footercon{
+    background-color: #c1c1c2;
+}
+#footer{
+    margin-left: 100px;
+    
+}
+.bd-footer a {
+    color: #495057;
+    text-decoration: none;
+}
+#footersearch{
+    background-color: red;
+    float: left;
+    
+}
+.thirdparta{
+    color: white;
+}
+.thirdparta :hover{
+    color: #495057;
+}
+/*Footer end*/
+/*body end*/
+
+
+@media screen and (max-width:768px ){
+.container1{
+    display: flex;
+}
+    .imge{
+    
+    width:auto ;}
+    
+.imge2{
+width: 200px;
+display: flex;
+padding-left: 5%;
+}
+#yardim{
+    margin-left:  200px;
+}
+#blog{
+    margin-left: 10px;
+}
+.karma{
+    display: flex;
+    margin-left: 0%;
+    padding-left: 0%;
+    
+}
+#sing{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 1rem;
+}
+.form3{
+    flex-grow: 1;
+    flex-basis: 700px;
+    width: 300px;
+    margin-left: 0%;
+    padding-left: 0%;
+    margin-right: 0%;
+    padding-right: 0%;
+}
+#form1{
+    margin-left: 0%;
+}
+}
